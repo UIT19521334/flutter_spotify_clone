@@ -9,7 +9,7 @@ class AppTheme {
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
         backgroundColor: AppColors.primary,
-        textStyle: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+        textStyle: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white),
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.all(Radius.circular(30)),
         ),
@@ -24,7 +24,7 @@ class AppTheme {
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
         backgroundColor: AppColors.primary,
-        textStyle: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+        textStyle: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white),
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.all(Radius.circular(30)),
         ),
